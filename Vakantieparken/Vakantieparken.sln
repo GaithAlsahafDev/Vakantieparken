@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VakantieparkenBL", "VakantieparkenBL\VakantieparkenBL.csproj", "{D7E385A0-B653-4724-ABD2-05B4EF6FE013}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VakantieparkenDL_SQL", "VakantieparkenDL_SQL\VakantieparkenDL_SQL.csproj", "{C0E02150-C4E8-45C7-B5CB-C742C2E99245}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VakantieparkenDL_File", "VakantieparkenDL_File\VakantieparkenDL_File.csproj", "{E39DB94A-E220-4E5B-906C-7158A37CB15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VakantieparkenUI", "VakantieparkenUI\VakantieparkenUI.csproj", "{B0C85598-0321-4AE0-B901-2AE8A061B52E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApp", "TestApp", "{CF9EFC43-5A16-4B78-9B42-28EFF2603934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTestManager", "ConsoleAppTestManager\ConsoleAppTestManager.csproj", "{B19F6ABE-790E-48CF-B025-4E7362305AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FAC2E076-7E37-4AD1-9B57-A50A477A1F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDomein", "TestDomein\TestDomein.csproj", "{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7E385A0-B653-4724-ABD2-05B4EF6FE013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E385A0-B653-4724-ABD2-05B4EF6FE013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E385A0-B653-4724-ABD2-05B4EF6FE013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E385A0-B653-4724-ABD2-05B4EF6FE013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E02150-C4E8-45C7-B5CB-C742C2E99245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E02150-C4E8-45C7-B5CB-C742C2E99245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E02150-C4E8-45C7-B5CB-C742C2E99245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E02150-C4E8-45C7-B5CB-C742C2E99245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39DB94A-E220-4E5B-906C-7158A37CB15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39DB94A-E220-4E5B-906C-7158A37CB15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39DB94A-E220-4E5B-906C-7158A37CB15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39DB94A-E220-4E5B-906C-7158A37CB15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C85598-0321-4AE0-B901-2AE8A061B52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C85598-0321-4AE0-B901-2AE8A061B52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C85598-0321-4AE0-B901-2AE8A061B52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C85598-0321-4AE0-B901-2AE8A061B52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19F6ABE-790E-48CF-B025-4E7362305AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19F6ABE-790E-48CF-B025-4E7362305AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19F6ABE-790E-48CF-B025-4E7362305AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19F6ABE-790E-48CF-B025-4E7362305AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B19F6ABE-790E-48CF-B025-4E7362305AF6} = {CF9EFC43-5A16-4B78-9B42-28EFF2603934}
+		{25E8CEC3-CA1A-4C16-8244-FFB82FDF2356} = {FAC2E076-7E37-4AD1-9B57-A50A477A1F71}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D03E9CD2-FC63-4255-84EF-7919999A91DF}
+	EndGlobalSection
+EndGlobal

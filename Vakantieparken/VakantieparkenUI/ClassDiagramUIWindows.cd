@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VakantieparkenUI.GeaffecteerdeReservatiesWindow" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>GeaffecteerdeReservatiesWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VakantieparkenUI.HuisInOnderhoudWindow" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABgAAAAAAAQAAAAAEAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HuisInOnderhoudWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VakantieparkenUI.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VakantieparkenUI.NieuweReservatieWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEyAhAAABgGARABAAAAAAAAAACAIAEAAAKE=</HashCode>
+      <FileName>NieuweReservatieWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VakantieparkenUI.ReservatiesZoekenWindow" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAQAAAACAAAAAEACAAAAAAAAE=</HashCode>
+      <FileName>ReservatiesZoekenWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="System.Windows.Markup.IComponentConnector">
+    <Position X="7.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

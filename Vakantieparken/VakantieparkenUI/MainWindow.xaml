@@ -1,0 +1,35 @@
+﻿<Window x:Class="VakantieparkenUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VakantieparkenUI"
+        mc:Ignorable="d"
+        Title="Startpagina" WindowState="Maximized" Width="865">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Nieuwe Reservatie Maken" 
+                Grid.Row="0" 
+                Click="NieuweReservatieMaken_Click" FontSize="20" FontWeight="Bold"/>
+
+        <Button Content="Reservaties Zoeken" 
+                Grid.Row="1" 
+                Click="ReservatiesZoeken_Click" FontSize="20" FontWeight="Bold"/>
+
+        <Button Content="Huis in Onderhoud Plaatsen" 
+                Grid.Row="2" 
+                Click="HuisInOnderhoudPlaatsen_Click" FontSize="20" FontWeight="Bold"/>
+
+        <Button Content="Geaffecteerde Reservaties Tonen" 
+                Grid.Row="3" 
+                Click="GeaffecteerdeKlantenTonen_Click" FontSize="20" FontWeight="Bold"/>
+    </Grid>
+</Window>
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VakantieparkenDL_File.FileProcessor">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>FileProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.458" />
+  </Class>
+  <Interface Name="VakantieparkenBL.Interfaces.IFileProcessor">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="Vakantieparken_UI.ReservatiesZoekenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vakantieparken_UI"
+        mc:Ignorable="d"
+        Title="Reservaties Zoeken" Height="500" Width="600">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Zoek op Naam van Klant:" Margin="0,0,0,10"/>
+            <ComboBox x:Name="KlantNaamComboBox" Width="300"/>
+
+            <TextBlock Text="Of Zoek op Park en Periode:" Margin="20,20,0,10"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,10">
+                <ComboBox x:Name="ParkComboBox" Width="200"/>
+                <TextBlock Text="Van:" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                <DatePicker x:Name="StartDatumPicker" Width="140"/>
+                <TextBlock Text="Tot:" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                <DatePicker x:Name="EindDatumPicker" Width="140"/>
+            </StackPanel>
+
+            <Button Content="Zoeken" Width="200" Height="40" Click="Zoeken_Click" Margin="0,10,0,0"/>
+
+            <TextBlock Text="Gevonden Reservaties:" Margin="20,20,0,10"/>
+            <ListBox x:Name="ReservatiesListBox" Width="500" Height="150"/>
+
+            <!-- زر العودة إلى الصفحة الرئيسية -->
+            <Button Content="Terug naar Startpagina" Width="200" Height="40" Margin="0,20,0,0" Click="TerugNaarStartpagina_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

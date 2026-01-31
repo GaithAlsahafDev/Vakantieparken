@@ -1,0 +1,31 @@
+﻿<Window x:Class="VakantieparkenUI.GeaffecteerdeReservatiesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VakantieparkenUI"
+        mc:Ignorable="d"
+        Title="Geaffecteerde Klanten" WindowState="Maximized" Width="1141" Height="796">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Lijst van Geaffecteerde Reservaties" FontSize="16" Margin="0,0,0,10"/>
+            <DataGrid x:Name="ReservatiesDataGrid" AutoGenerateColumns="False" Width="1000" Height="627" Margin="0,0,0,20">
+                <DataGrid.Columns>
+                    <!-- أعمدة البيانات -->
+                    <DataGridTextColumn Header="Reservatie id" Binding="{Binding ReservatieID}" Width="Auto" />
+                    <DataGridTextColumn Header="Klant naam" Binding="{Binding KlantNaam}" Width="Auto" />
+                    <DataGridTextColumn Header="Klant adres" Binding="{Binding KlantAdres}" Width="Auto" />
+                    <DataGridTextColumn Header="Start datum" Binding="{Binding StartDatum, StringFormat={}{0:dd/MM/yyyy}}" Width="Auto" />
+                    <DataGridTextColumn Header="Eind datum" Binding="{Binding EindDatum, StringFormat={}{0:dd/MM/yyyy}}" Width="Auto" />
+                    <DataGridTextColumn Header="Park naam" Binding="{Binding ParkNaam}" Width="Auto" />
+                    <DataGridTextColumn Header="Park locatie" Binding="{Binding ParkLocatie}" Width="Auto" />
+                    <DataGridTextColumn Header="Huis adres" Binding="{Binding HuisAdres}" Width="Auto" />
+                    <DataGridTextColumn Header="Huis nummer" Binding="{Binding HuisNummer}" Width="Auto" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- زر العودة إلى الصفحة الرئيسية -->
+            <Button Content="Terug naar Startpagina" Width="200" Height="40" HorizontalAlignment="Center" Click="TerugNaarStartpagina_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

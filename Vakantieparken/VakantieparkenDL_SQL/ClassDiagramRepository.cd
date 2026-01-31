@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VakantieparkenDL_SQL.VakantieparkenRepository">
+    <Position X="5.75" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AABgAUADAEAAAAAAAAEAEAAAAAgCAAAIAIgABAAAAAQ=</HashCode>
+      <FileName>VakantieparkenRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="1.531" />
+  </Class>
+  <Interface Name="VakantieparkenBL.Interfaces.IVakantieparkenRepository">
+    <Position X="1" Y="0.75" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

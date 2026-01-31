@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VakantieparkenBL.Model.Park">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <AssociationLine Name="Huizen" Type="VakantieparkenBL.Model.Huis" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="2.125" />
+        <Point X="6.5" Y="2.125" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAEAAQAAAAABAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\Park.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Huizen" />
+      <Property Name="Faciliteiten" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VakantieparkenBL.Model.Faciliteit">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Model\Faciliteit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.Model.Huis">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAACAAAAAARAAQCAgAAAAACAAAAAAQAAAAAAQAA=</HashCode>
+      <FileName>Model\Huis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Park" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Reservaties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VakantieparkenBL.Model.Reservatie">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgQAAAAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Model\Reservatie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Klant" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VakantieparkenBL.Model.Klant">
+    <Position X="0.5" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Klant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.Managers.VakantieparkenManager">
+    <Position X="9" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAEICAABAAABAAAAAAAAGAAYAgAAgAAAAAACA=</HashCode>
+      <FileName>Managers\VakantieparkenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.Managers.DataUploadManager">
+    <Position X="13.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\DataUploadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.Exceptions.DomeinException">
+    <Position X="13.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DomeinException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.Exceptions.ManagerException">
+    <Position X="13.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ManagerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.DTO.GeaffecteerdeReservatieInfo">
+    <Position X="10" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAEAAAAAQAAQAIAASAAAAAAAgAAAAAgAAA=</HashCode>
+      <FileName>DTO\GeaffecteerdeReservatieInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.DTO.HuisInfo">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAABEAQAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\HuisInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.DTO.ParkInfo">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ParkInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.DTO.ReservatiesOpKlantInfo">
+    <Position X="4.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEEAAAAAAAAAAIAASAgAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>DTO\ReservatiesOpKlantInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VakantieparkenBL.DTO.ReservatiesOpParkEnPeriodeInfo">
+    <Position X="7" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAIIASAgAAAAAgAAAAAgAAA=</HashCode>
+      <FileName>DTO\ReservatiesOpParkEnPeriodeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VakantieparkenBL.Interfaces.IFileProcessor">
+    <Position X="16" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\IFileProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VakantieparkenBL.Interfaces.IVakantieparkenRepository">
+    <Position X="16" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABgAUADAEAAAAAAAAEAEAAAAAgCAAAAAIgABAAAAAQ=</HashCode>
+      <FileName>Interfaces\IVakantieparkenRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
